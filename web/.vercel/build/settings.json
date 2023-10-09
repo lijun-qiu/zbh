@@ -1,0 +1,3 @@
+{
+  "command": "pnpm install --global pnpm@latest && pnpm install && pnpm run build"
+}
