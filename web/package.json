@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "test": "nuxt build --test",
+    "dev": "nuxt dev --test",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@ant-design-vue/nuxt": "^1.0.1",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "dompurify": "^3.0.5",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "nuxt": "^3.6.5",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "autoprefixer": "^10.4.15",
+    "pingansec-vue-ana": "^1.1.8",
+    "postcss": "^8.4.28"
+  }
+}
