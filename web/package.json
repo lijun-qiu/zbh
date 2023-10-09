@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "prebuild": "pnpm install",
     "build": "nuxt build",
     "test": "nuxt build --test",
     "dev": "nuxt dev --test",
