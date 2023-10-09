@@ -2,8 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "prebuild": "pnpm install",
-    "build": "nuxt build",
+    "build": "pnpm install && nuxt build",
     "test": "nuxt build --test",
     "dev": "nuxt dev --test",
     "generate": "nuxt generate",
@@ -33,6 +32,7 @@
   "dependencies": {
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@pinia/nuxt": "^0.4.11",
-    "pingansec-vue-ana": "^1.1.8"
+    "pingansec-vue-ana": "^1.1.8",
+    "pnpm": "^8.8.0"
   }
 }
